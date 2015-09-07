@@ -1,0 +1,22 @@
+{
+  "name": "yusurhythm.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yutakam80/yusurhythm.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yutakam80/yusurhythm.com/issues"
+  },
+  "homepage": "https://github.com/yutakam80/yusurhythm.com",
+  "devDependencies": {
+    "browser-sync": "^2.9.1"
+  }
+}
