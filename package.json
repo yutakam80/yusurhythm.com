@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/yutakam80/yusurhythm.com",
   "devDependencies": {
-    "browser-sync": "^2.9.1"
+    "browser-sync": "^2.9.1",
+    "gulp": "^3.9.0",
+    "gulp-compass": "^2.1.0"
   }
 }
