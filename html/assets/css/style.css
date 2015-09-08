@@ -247,7 +247,7 @@ img {
   }
 
   .site-body {
-    min-width: auto;
+    min-width: 0;
   }
 
   .site-visual {
