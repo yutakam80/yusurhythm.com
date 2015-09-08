@@ -170,3 +170,86 @@ img {
   color: #A6A6A6;
   font-size: 14px;
 }
+
+@media screen and (max-width: 640px) {
+  .site-header {
+    height: 40px;
+
+    h1 {
+      width: 86px;
+      top: 10px;
+      left: 10px;
+    }
+    a {
+      width: 76px;
+      top: 10px;
+      right: 10px;
+    }
+  }
+  .site-body {
+    min-width: auto;
+  }
+  .site-visual {
+    background-size: 300px, 800px;
+    height: 400px;
+
+    h2 {
+      font-size: 26px;
+      top: 190px;
+    }
+    p {
+      font-size: 14px;
+      top: 230px;
+    }
+    i {
+      font-size: 14px;
+      top: 330px;
+
+      &:before {
+        width: 10px;
+        height: 10px;
+        bottom: -10px;
+        margin-left: -6px;
+      }
+    }
+  }
+  .site-howto {
+    padding: 20px;
+
+    h2 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  .site-step {
+    width: auto;
+
+    li {
+      &:nth-child(2) {
+        margin: 0;
+      }
+    }
+  }
+  .site-footer {
+    background-size: 300px;
+    padding: 40px 10px 10px;
+  }
+  .site-footer-inner {
+    width: auto;
+
+    a {
+      width: 76px;
+    }
+  }
+  .site-footer-logo {
+    width: 135px;
+  }
+  .site-notes {
+    font-size: 10px;
+  }
+  .site-copyright {
+    font-size: 12px;
+  }
+}
