@@ -214,6 +214,17 @@ img {
   top: 0;
   right: 0;
 }
+.site-footer-inner ul {
+  float: right;
+}
+.site-footer-inner li {
+  vertical-align: top;
+  display: inline-block;
+  height: 25px;
+}
+.site-footer-inner li .fb-share-button {
+  top: -5px;
+}
 
 .site-footer-logo {
   width: 269px;

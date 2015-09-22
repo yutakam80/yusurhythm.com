@@ -156,6 +156,18 @@ img {
     top: 0;
     right: 0;
   }
+  ul {
+    float: right;
+  }
+  li {
+    vertical-align: top;
+    display: inline-block;
+    height: 25px;
+
+    .fb-share-button {
+      top: -5px;
+    }
+  }
 }
 .site-footer-logo {
   width: 269px;
